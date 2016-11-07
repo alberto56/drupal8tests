@@ -1,5 +1,7 @@
 #!/bin/bash
-
+#
+# Runs the unit tests; these are the simplest tests available to Drupal.
+#
 set -e
 
 docker-compose exec web /bin/bash -c 'cd /var/www/html && \

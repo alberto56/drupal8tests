@@ -1,0 +1,7 @@
+<phpunit bootstrap="autoload.php">
+  <testsuites>
+    <testsuite name="drupal8tests">
+      <directory>tests</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
