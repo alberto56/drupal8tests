@@ -1,0 +1,11 @@
+<?php
+
+use Drupal\drupal8tests\Module;
+
+/**
+ * Implements hook_schema().
+ */
+function drupal8tests_schema() {
+  $module = new Module();
+  return $module->hookSchema();
+}

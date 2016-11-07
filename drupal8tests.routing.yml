@@ -1,0 +1,7 @@
+drupal8tests:
+  path: 'drupal8tests'
+  defaults:
+    _form: '\Drupal\drupal8tests\Form\Drupal8TestsForm'
+    _title: 'Drupal 8 Tests'
+  requirements:
+    _permission: 'access content'
