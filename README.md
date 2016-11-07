@@ -39,11 +39,13 @@ Make it fast
 Keeping your unit tests under 30 seconds, and your entire test suite under
 a few minutes, will
 
-Use CI, Stan
-Review code, Roy
-BrowserTestBase, Gus
-WebTestBase, Lee
-KernelTestBase, Will
-UnitTestBase, Dick
+Use CI
+Review code
+BrowserTestBase
+WebTestBase
+KernelTestBase
+UnitTestBase
 Behat, Mink, PhantomJs
 AVA
+Coverage
+Lint
